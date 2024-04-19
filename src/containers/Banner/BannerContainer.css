@@ -1,0 +1,60 @@
+.carousel-banner-principal > .carousel-control-prev > .carousel-control-prev-icon {
+    color: #F84842 !important;
+}
+
+.carousel-container {
+    /* Estilos para el contenedor del carrusel */
+    height: calc(100% - 80px); /* Resta la altura del encabezado */
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    /* Estilos para cada diapositiva del carrusel */
+    height: 100%;
+    width: 100%;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    animation: slide 8s infinite; /* Agrega una animación de desplazamiento si lo deseas */
+}
+
+.carousel-banner {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    top: 236px;
+    right: 195px;
+    text-align: left !important;
+}
+
+.carousel-banner > h3 {
+    font-size: 20px;
+}
+
+.carousel-banner > p {
+    font-size: 75px;
+}
+
+.carousel-banner > h3 > svg{
+    color: #F84842;
+    margin-right: 10px;
+}
+
+.carousel-banner > button {
+    background-color: #F84842;
+    color: white;
+    border-radius: 5% !important;
+    border: solid 1px #F84842;
+    width: 114px;
+    height: 40px;
+}
+
+.carousel-banner > button:hover {
+    background-color: white;
+    color: #F84842;
+    border: solid 1px white;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none !important;
+}

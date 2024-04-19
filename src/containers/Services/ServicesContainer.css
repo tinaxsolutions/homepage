@@ -1,0 +1,12 @@
+.services-items {
+    margin-top: 61px;
+}
+
+.services-item {
+    width: 180px;
+    height: 180px;
+}
+
+.services-items > div > div > button:first-child {
+    margin-bottom: 33px;
+}
