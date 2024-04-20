@@ -1,6 +1,6 @@
 {
   "name": "tinax_landing",
-  "homepage": "https://tinaxsolutions.github.io/homepage/",
+  "homepage": "https://tinaxsolutions.github.io/homepage/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
