@@ -4,10 +4,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import './ServicesContainer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDisplay, faGear, faGlobe, faMobileScreenButton, faPencil } from "@fortawesome/free-solid-svg-icons";
 
 function BannerContainer() {
     return (
-        <section>
+        <section className="services">
             <Container>
                 <Row>
                     <Col>
@@ -22,12 +24,28 @@ function BannerContainer() {
                         <Container className="services-items">
                             <Row>
                                 <Col>
-                                    <Button className="services-item"></Button>
-                                    <Button className="services-item"></Button>
+                                    <Button className="services-item">
+                                        <FontAwesomeIcon icon={ faDisplay }>
+                                            <FontAwesomeIcon icon={ faGear} />
+                                        </FontAwesomeIcon>
+                                        <p>Desarrollo de Software</p>
+                                    </Button>
+                                    <Button className="services-item">
+                                        <FontAwesomeIcon icon={ faMobileScreenButton} />
+                                        <p>Diseño Web</p>
+                                    </Button>
                                 </Col>
                                 <Col>
-                                    <Button className="services-item"></Button>
-                                    <Button className="services-item"></Button>
+                                    <Button className="services-item">
+                                        <FontAwesomeIcon icon={ faDisplay } />
+                                        <FontAwesomeIcon icon={ faGlobe} />
+                                        <p>Desarrollo de app mobiles</p>
+                                    </Button>
+                                    <Button className="services-item">
+                                        <FontAwesomeIcon icon={ faDisplay } />
+                                        <FontAwesomeIcon icon={ faPencil} />
+                                        <p>Diseño Grafico</p>
+                                    </Button>
                                 </Col>
                             </Row>
                         </Container>

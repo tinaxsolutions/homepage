@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import logo from '../../assets/images/logo.PNG';
 import './HeaderContainer.css'
 import Container from 'react-bootstrap/Container';
@@ -10,8 +10,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const HeaderContainer = () => {
+    const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const headerScroll = scrollY > 100 ? 'scrolled' : '';
     return (
-        <header>
+        <header className={headerScroll}>
             <Navbar className="barra-nav">
                 <Container>
                     <Navbar.Brand href="#home"><Image className="logo" src={logo} /></Navbar.Brand>

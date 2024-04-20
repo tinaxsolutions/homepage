@@ -18,6 +18,11 @@
     animation: slide 8s infinite; /* Agrega una animación de desplazamiento si lo deseas */
 }
 
+.carousel-item img {
+    height: 900px;
+    width: 100%;
+}
+
 .carousel-banner {
     color: white;
     font-family: "Inter", sans-serif;

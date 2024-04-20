@@ -1,0 +1,61 @@
+.team {
+    background-color: #F86342;
+    filter: contrast(84%);
+    height: 535px;
+}
+
+.team h1 {
+    text-align: center;
+    margin-top: 27px !important;
+    padding-top: 27px;
+}
+
+.team p {
+    text-align: center;
+}
+
+.team div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+
+.team > div > img {
+    filter: brightness(0) invert(1);
+}
+
+.team-items div {
+    column-gap: 40px;
+}
+
+.team-items div > div {
+    flex-direction: column;
+}
+
+.team-items div > div > img {
+    width: 220px;
+    height: 235px;
+}
+
+.team-items div > div > div {
+    align-items: center;
+    position: relative;
+    top: -37px;
+    margin-bottom: 0;
+}
+
+.team-items div > div > div > img {
+    width: 21.88px;
+    height: 21.88px;
+    align-items: center;
+}
+
+.team-items > div > div > h3 {
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+

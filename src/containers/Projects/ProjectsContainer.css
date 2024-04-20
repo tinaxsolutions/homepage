@@ -1,0 +1,26 @@
+.projects {
+    height: 583px;;
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+}
+
+.projects p {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.projects > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.project-items div > div > img {
+    width: 300px;
+}
