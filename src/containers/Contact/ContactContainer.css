@@ -1,0 +1,123 @@
+.contact {
+    height: 647px;
+    padding-top: 54px;
+}
+
+.contact-info > div {
+    border-bottom: solid 2px #F84842;
+    margin-bottom: 50px;
+    width: 28rem;
+}
+
+.contact-info > div > div:first-child {
+    background-color: #F84842;
+    width: 58px !important;
+    height: 58px !important;
+    margin: 0 !important;
+    border-radius: 50% 50%;
+    padding: 15px 17px;
+}
+
+.contact-info > div > div > svg {
+    color: white;
+    height: 28px;
+    width: 24px;
+}
+
+.contact div > div > h3 {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #F84842;
+    text-transform: uppercase;
+}
+
+.contact div > div > h1 {
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+
+.contact-text p:nth-child(1) {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #828282;
+}
+
+.contact-text p:nth-child(2) {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.contact-form {
+    margin-top: 18px;
+}
+
+.contact-form div{
+    margin-bottom: 39px;
+    height: 50px;
+}
+
+.contact-form div:nth-child(3) {
+    width: 536px;
+}
+
+.contact-form div > div {
+    width: 280px;
+}
+
+.contact-form div > div > input {
+    height: 50px;
+    border-radius: 0;
+    background-color: #F2F3F5;
+    padding: 3px 10px 25px 10px !important;
+}
+
+.contact-form div > div > input::placeholder {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #828282;
+    
+}
+
+.contact-form div:nth-child(3) > input {
+    height: 50px;
+    border-radius: 0;
+    background-color: #F2F3F5;
+    padding: 3px 10px 25px 10px !important;
+}
+
+.contact-form div:nth-child(3) > input::placeholder {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #828282;
+}
+
+.contact-form button {
+    border-radius: 0;
+    background-color: #F84842;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 220px;
+    height: 50px;
+}
+
+.contact-form button::placeholder {
+padding-bottom: 10px;
+}
+
+.contact-form button:hover {
+    border-radius: 0;
+    background-color: white;
+    color: #F84842;
+    border: 1px solid #F84842;
+    width: 220px;
+    height: 50px;
+}
